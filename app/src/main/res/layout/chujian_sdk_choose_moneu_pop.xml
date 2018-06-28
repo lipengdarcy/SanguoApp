@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="#88666666" android:paddingTop="30.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="#fffffbf1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textSize="15.0sp" android:textColor="#ffeb6e09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="100.0dip" android:layout_marginBottom="15.0dip" android:text="请选择充值卡面额" />
+        <TextView android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:id="@id/chujian_sdk_pay_card_choose_money_10" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff78622a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10元" />
+                    <CheckBox android:layout_gravity="center|right" android:id="@id/chujian_sdk_pay_card_choose_money_10_check" android:background="@drawable/chujian_sdk_pay_choose_money_check_s" android:layout_width="15.0sp" android:layout_height="15.0sp" android:checked="true" android:button="@null" />
+                </FrameLayout>
+                <TextView android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+                <FrameLayout android:id="@id/chujian_sdk_pay_card_choose_money_20" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff78622a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="20元" />
+                    <CheckBox android:layout_gravity="center|right" android:id="@id/chujian_sdk_pay_card_choose_money_20_check" android:background="@drawable/chujian_sdk_pay_choose_money_check_s" android:layout_width="15.0sp" android:layout_height="15.0sp" android:button="@null" />
+                </FrameLayout>
+                <TextView android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+                <FrameLayout android:id="@id/chujian_sdk_pay_card_choose_money_30" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff78622a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="30元" />
+                    <CheckBox android:layout_gravity="center|right" android:id="@id/chujian_sdk_pay_card_choose_money_30_check" android:background="@drawable/chujian_sdk_pay_choose_money_check_s" android:layout_width="15.0sp" android:layout_height="15.0sp" android:button="@null" />
+                </FrameLayout>
+                <TextView android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+                <FrameLayout android:id="@id/chujian_sdk_pay_card_choose_money_50" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff78622a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="50元" />
+                    <CheckBox android:layout_gravity="center|right" android:id="@id/chujian_sdk_pay_card_choose_money_50_check" android:background="@drawable/chujian_sdk_pay_choose_money_check_s" android:layout_width="15.0sp" android:layout_height="15.0sp" android:button="@null" />
+                </FrameLayout>
+                <TextView android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+                <FrameLayout android:id="@id/chujian_sdk_pay_card_choose_money_100" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff78622a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="100元" />
+                    <CheckBox android:layout_gravity="center|right" android:id="@id/chujian_sdk_pay_card_choose_money_100_check" android:background="@drawable/chujian_sdk_pay_choose_money_check_s" android:layout_width="15.0sp" android:layout_height="15.0sp" android:button="@null" />
+                </FrameLayout>
+                <TextView android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+                <FrameLayout android:id="@id/chujian_sdk_pay_card_choose_money_300" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff78622a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="300元" />
+                    <CheckBox android:layout_gravity="center|right" android:id="@id/chujian_sdk_pay_card_choose_money_300_check" android:background="@drawable/chujian_sdk_pay_choose_money_check_s" android:layout_width="15.0sp" android:layout_height="15.0sp" android:button="@null" />
+                </FrameLayout>
+                <TextView android:background="#ffd6d6d6" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+                <FrameLayout android:id="@id/chujian_sdk_pay_card_choose_money_500" android:padding="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff78622a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="500元" />
+                    <CheckBox android:layout_gravity="center|right" android:id="@id/chujian_sdk_pay_card_choose_money_500_check" android:background="@drawable/chujian_sdk_pay_choose_money_check_s" android:layout_width="15.0sp" android:layout_height="15.0sp" android:button="@null" />
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</FrameLayout>

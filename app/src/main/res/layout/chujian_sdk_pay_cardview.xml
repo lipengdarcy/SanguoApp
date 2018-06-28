@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="#ffffffff" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/chujian_sdk_pay_detail_card_scrollview" android:paddingTop="15.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="50.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:background="@drawable/chujian_sdk_paydetail_title_layout_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <FrameLayout android:layout_gravity="center_vertical" android:id="@id/chujian_sdk_pay_detail_card_titleframe" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="20.0sp" android:textColor="#ffef520d" android:id="@id/chujian_sdk_pay_detail_card_amount_tv" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="6元" />
+                    <FrameLayout android:layout_gravity="center|right" android:id="@id/chujian_visibilityViewParent" android:layout_width="50.0dip" android:layout_height="50.0dip">
+                        <ImageView android:layout_gravity="center" android:id="@id/chujian_sdk_pay_detail_card_titleimg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chujian_sdk_pay_detail_gone" />
+                    </FrameLayout>
+                </FrameLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/chujian_sdk_pay_detail_card_title_linear" android:paddingLeft="10.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/chujian_sdk_pay_detail_card_titleframe">
+                    <TextView android:textSize="12.0sp" android:textColor="#ffa29738" android:layout_gravity="center_vertical" android:id="@id/chujian_sdk_pay_detail_card_username_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:text="用户名：11" />
+                    <TextView android:textSize="12.0sp" android:textColor="#ffa29738" android:layout_gravity="center_vertical" android:id="@id/chujian_sdk_pay_detail_card_pname_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="商    品：22" />
+                </LinearLayout>
+            </RelativeLayout>
+            <RelativeLayout android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/chujian_sdk_pay_detail_card_expain_tv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/chujian_sdk_cardpay_text" />
+                <FrameLayout android:orientation="horizontal" android:id="@id/chujian_sdk_pay_detail_card_amount_layout" android:background="@drawable/chujian_sdk_pay_card_choosenum_back_s" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/chujian_sdk_pay_detail_card_expain_tv">
+                    <LinearLayout android:orientation="horizontal" android:paddingLeft="5.0dip" android:paddingTop="15.0dip" android:paddingRight="10.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="面   值：" />
+                        <TextView android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="10元" />
+                    </LinearLayout>
+                </FrameLayout>
+                <Button android:textSize="15.0sp" android:gravity="center|left" android:id="@id/chujian_sdk_pay_detail_card_chooseamount_btn" android:background="@drawable/chujian_sdk_pay_card_choosenum_back_s" android:paddingLeft="5.0dip" android:paddingTop="15.0dip" android:paddingRight="10.0dip" android:paddingBottom="15.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="面   值：10元" android:layout_below="@id/chujian_sdk_pay_detail_card_expain_tv" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/chujian_sdk_pay_detail_card_name_layout" android:background="@drawable/chujian_sdk_pay_card_edit_back" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/chujian_sdk_pay_detail_card_chooseamount_btn">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="卡   号：" />
+                    <EditText android:textSize="15.0sp" android:id="@id/chujian_sdk_pay_detail_card_num_edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:hint="请输入卡号" android:ems="10" android:singleLine="true" android:inputType="number" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/chujian_sdk_pay_detail_card_pass_layout" android:background="@drawable/chujian_sdk_pay_card_edit_back" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/chujian_sdk_pay_detail_card_name_layout">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="密   码：" />
+                    <EditText android:textSize="15.0sp" android:id="@id/chujian_sdk_pay_detail_card_pass_edit" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:hint="请输入密码" android:ems="10" android:singleLine="true" android:inputType="number" />
+                </LinearLayout>
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/chujian_sdk_pay_detail_card_pass_layout">
+                    <TextView android:textSize="15.0sp" android:textColor="#ff0c6dcf" android:layout_gravity="right" android:id="@id/chujian_sdk_pay_detail_card_knowmore_tv" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="了解更多" />
+                </FrameLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:textColor="#ffffffff" android:layout_gravity="bottom" android:id="@id/chujian_sdk_pay_detail_card_next_btn" android:background="@drawable/chujian_sdk_pay_detail_mo9_gotopay_s" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="立即付款" />
+</FrameLayout>

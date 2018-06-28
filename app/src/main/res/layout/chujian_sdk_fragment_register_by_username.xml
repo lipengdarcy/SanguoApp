@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.darcy.sanguo.MyFrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/chujian_sdk_fragment_back_container" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/chujian_register_by_username_content" android:background="@drawable/chujian_sdk_fragment_logining_center_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_username_title_linearlayout" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+                <Button android:id="@id/chujian_register_by_username_back_button" android:background="@drawable/chujian_sdk_backbtn_select" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+                <ImageView android:id="@id/chujian_register_by_username_title_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:src="@drawable/chujian_register_title" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_username_prompt_linearlayout" android:layout_width="300.0dip" android:layout_height="wrap_content">
+                <TextView android:textSize="10.0sp" android:textColor="#ffe0791d" android:id="@id/chujian_register_by_username_prompt_textview" android:background="@drawable/chujian_sdk_login_tip_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="用户名已存在" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_username_username_linearlayout" android:background="@drawable/chujian_sdk_login_widget_background" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/chujian_register_by_username_username_textview" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="账号:" android:singleLine="true" />
+                <EditText android:textSize="15.0sp" android:id="@id/chujian_register_by_username_username_edittext" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:hint="数字字母组合" android:singleLine="true" android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" android:layout_weight="1.0" android:imeOptions="actionNext" />
+                <FrameLayout android:id="@id/chujian_register_by_username_username_delete_framelayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="8.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/chujian_register_by_username_username_delete_imageview" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/chujiansdk_login_delete" />
+                </FrameLayout>
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/chujian_register_by_username_password_linearlayout" android:background="@drawable/chujian_sdk_login_widget_background" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/chujian_register_by_username_password_textview" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="密码:" android:singleLine="true" />
+                <EditText android:textSize="15.0sp" android:id="@id/chujian_register_by_username_password_edittext" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:hint="6-20个字符" android:singleLine="true" android:maxLength="20" android:digits="0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ" android:layout_weight="1.0" android:inputType="textPassword" android:imeOptions="actionDone" />
+                <FrameLayout android:id="@id/chujian_register_by_username_pass_delete_framelayout1" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="8.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/chujian_register_by_username_pass_delete_imageview1" android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/chujiansdk_login_delete" />
+                </FrameLayout>
+            </LinearLayout>
+            <RelativeLayout android:gravity="center|right" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/chujian_register_by_username_checkbox_relativelayout" android:layout_width="300.0dip" android:layout_height="wrap_content">
+                <CheckBox android:id="@id/chujian_register_by_username_showpassword_checkbox" android:background="@drawable/chujian_sdk_showpassword_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:button="@null" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:gravity="center_vertical" android:id="@id/chujian_register_by_username_showpassword_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3.0dip" android:text="显示密码" android:layout_toRightOf="@id/chujian_register_by_username_showpassword_checkbox" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <Button android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_username_register_button" android:background="@drawable/chujian_sdk_fragment_check_phone_number_register_btn_selector" android:layout_width="300.0dip" android:layout_height="50.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</org.darcy.sanguo.MyFrameLayout>

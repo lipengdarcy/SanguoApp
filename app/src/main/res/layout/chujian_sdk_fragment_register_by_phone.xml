@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.darcy.sanguo.sdk.view.MyFrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/chujian_sdk_fragment_back_container" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/chujian_register_by_phone_content" android:background="@drawable/chujian_sdk_fragment_logining_center_background" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_phone_title_linearlayout" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip">
+                <Button android:id="@id/chujian_register_by_phone_back_button" android:background="@drawable/chujian_sdk_backbtn_select" android:layout_width="35.0dip" android:layout_height="35.0dip" />
+                <ImageView android:id="@id/chujian_register_by_phone_title_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="60.0dip" android:src="@drawable/chujian_register_title" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/chujian_register_by_phone_advert_linearlayout" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <ImageView android:id="@id/chujian_register_by_phone_advert_imageview" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/chujian_find_password_tip_title" />
+                <TextView android:textSize="14.0sp" android:textColor="@android:color/black" android:id="@id/chujian_register_by_phone_advert_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="使用手机号注册可以找到更多好友" />
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_phone_phone_prompt_linearlayout" android:layout_width="300.0dip" android:layout_height="wrap_content">
+                <TextView android:textSize="10.0sp" android:textColor="#ffe0791d" android:id="@id/chujian_register_by_phone_phone_prompt_textview" android:background="@drawable/chujian_sdk_login_tip_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="手机号码不正确" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/chujian_register_by_phone_phone_linearlayout" android:background="@drawable/chujian_sdk_login_widget_background" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textSize="16.0sp" android:textColor="#ff000000" android:id="@id/chujian_register_by_phone_phone_textview" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="手机号:" android:singleLine="true" />
+                <EditText android:textSize="16.0sp" android:id="@id/chujian_register_by_phone_phone_edittext" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:hint="用于接收验证短信" android:singleLine="true" android:layout_weight="1.0" android:inputType="number" android:imeOptions="actionDone" />
+                <FrameLayout android:id="@id/chujian_register_by_phone_phone_delete_framelayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="10.0dip">
+                    <ImageView android:layout_gravity="center" android:id="@id/chujian_register_by_phone_phone_delete" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/chujiansdk_login_delete" />
+                </FrameLayout>
+            </LinearLayout>
+            <Button android:textColor="#ffffffff" android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_phone_check_button" android:background="@drawable/chujian_sdk_fragment_register_by_phone_check_btn_selector" android:paddingTop="3.0dip" android:paddingBottom="2.0dip" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="验证身份" />
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/chujian_register_by_phone_register_by_username_linearlayout" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <ImageView android:id="@id/chujian_register_by_phone_register_by_username_imageview" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/chujian_find_password_tip_title" />
+                <TextView android:textColor="@android:color/black" android:id="@id/chujian_register_by_phone_register_by_username_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="您也可以用用户名注册" />
+            </LinearLayout>
+        </LinearLayout>
+    </FrameLayout>
+</org.darcy.sanguo.sdk.view.MyFrameLayout>

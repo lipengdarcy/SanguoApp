@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/chujian_logining_content" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/chujian_logining_switch_relativelayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+        <ImageView android:id="@id/chujian_logining_switch_imageview" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/chujian_logining_switch" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/chujian_logining_center_linearlayout" android:background="@drawable/chujian_sdk_fragment_logining_center_background" android:layout_width="300.0dip" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/chujian_logining_username_linearlayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="#ff454545" android:id="@id/chujian_logining_chujian_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="三国账号" />
+            <TextView android:textSize="18.0sp" android:textColor="#fff39700" android:id="@id/chujian_logining_username_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18513667369" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/chujian_logining_progress_linearlayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+            <ProgressBar android:layout_gravity="center" android:id="@id/chujian_logining_progress_progressbar" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="20.0dip" android:indeterminateDrawable="@drawable/chujian_sdk_iamge_progress" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff454545" android:id="@id/chujian_logining_progress_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="正在登录..." />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/chujian_sdk_pay_title_layout" android:background="@drawable/chujian_sdk_pay_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:textSize="15.0sp" android:textColor="#ffffffff" android:layout_gravity="center_vertical" android:id="@id/chujian_sdk_pay_card_back_btn" android:background="@drawable/chujian_sdk_payback_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="返回" />
+        <RelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/chujian_sdk_pay_titleiv" android:background="@drawable/chujian" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerVertical="true" />
+            <TextView android:textSize="18.0sp" android:textColor="#ffffffff" android:id="@id/chujian_sdk_pay_titletv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="请勿再次充值不到账" android:layout_toRightOf="@id/chujian_sdk_pay_titleiv" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </FrameLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="15.0dip">
+            <ImageView android:layout_gravity="center_vertical" android:id="@id/chujian_sdk_pay_card_order_img" android:background="@drawable/chujian_sdkl_card_pay_success_img" android:layout_width="30.0dip" android:layout_height="30.0dip" />
+            <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="#ff000000" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="订单已提交" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/chujian_sdk_pay_card_orderno_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="15.0dip">
+            <TextView android:textSize="14.0sp" android:textColor="#ff000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="订单号：" />
+            <TextView android:textSize="14.0sp" android:textColor="#ffff6600" android:id="@id/chujian_sdk_pay_card_order_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="15.0dip" android:text="@string/chujian_sdk_cardpay_success" />
+    </LinearLayout>
+</LinearLayout>

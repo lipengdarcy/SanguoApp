@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">我的三国</string>
+    <string name="chujian_fragment_mo9_supported_channel">支持支付宝、财付通、银行卡</string>
+    <string name="chujian_fragment_yibao_supported_channel">支持储蓄卡、信用卡、点卡</string>
+    <string name="chujian_fragment_zhifubao_supported_channel">支持银行卡</string>
+    <string name="chujian_sdk_cardpay_text">支持移动、联通、电信充值卡，商品所选面值与充值卡面值不符时，充值卡余额将会被记录，您下次在本游戏内可使用相同卡密进行充值</string>
+    <string name="chujian_sdk_cardpay_knowmore">"·充值卡到账的过程可能需要1~2分钟
+·由于充值卡支付渠道的限制，如果所选面值与卡的实际面值不符，将导致交易失败."</string>
+    <string name="chujian_sdk_cardpay_success">系统正在处理您的订单请求，到账时间为1~2分钟，请稍候到应用中查看到账情况。</string>
+    <string name="chujian_sdk_notifypwd_header">验证手机号＆重置密码</string>
+</resources>

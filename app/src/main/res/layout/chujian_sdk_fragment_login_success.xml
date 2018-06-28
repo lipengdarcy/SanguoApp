@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/chujian_login_success_content" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/chujian_login_success_center_linearlayout" android:background="@drawable/chujian_sdk_fragment_logining_center_background" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+        <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/chujian_login_success_username_linearlayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="#ff454545" android:id="@id/chujian_login_success_chujian_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="三国账号" />
+            <TextView android:textSize="18.0sp" android:textColor="#fff39700" android:id="@id/chujian_login_success_username_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="18513667369" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/chujian_login_success_ok_linearlayout" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip">
+            <ImageView android:id="@id/chujian_login_success_ok_imageview" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/chujian_register_by_phone_success_tick" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff454545" android:id="@id/chujian_login_success_ok_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="登录成功!" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

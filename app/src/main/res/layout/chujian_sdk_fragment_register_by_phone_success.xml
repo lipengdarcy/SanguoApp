@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<org.darcy.sanguo.sdk.view.MyFrameLayout android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_gravity="center" android:background="@drawable/chujian_sdk_fragment_back_container" android:padding="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/chujian_register_by_phone_success_content" android:background="@drawable/chujian_sdk_fragment_logining_center_background" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_phone_success_title_linearlayout" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/chujian_register_by_phone_success_title_tick_imageview" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/chujian_register_by_phone_success_tick" />
+                    <ImageView android:id="@id/chujian_register_by_phone_success_title_success_imageview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/chujian_register_by_phone_success" />
+                </LinearLayout>
+            </LinearLayout>
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_phone_success_username_textview" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="账        号: 18201682201" />
+            <TextView android:textSize="15.0sp" android:textColor="@android:color/black" android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_phone_success_intial_password_textview" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="初始密码: vgav6b" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff909090" android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_phone_success_prompt_textview" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="为方便您记忆，可输入新密码" />
+            <LinearLayout android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_phone_success_password_prompt_linearlayout" android:layout_width="300.0dip" android:layout_height="wrap_content">
+                <TextView android:textSize="10.0sp" android:textColor="#ffe0791d" android:id="@id/chujian_register_by_phone_success_password_prompt_textview" android:background="@drawable/chujian_sdk_login_tip_back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="格式不正确" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_phone_success_password_linearlayout" android:background="@drawable/chujian_sdk_login_widget_background" android:layout_width="300.0dip" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip">
+                <TextView android:textSize="15.0sp" android:textColor="#ff000000" android:id="@id/chujian_register_by_phone_success_password_textview" android:padding="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="密码:" android:singleLine="true" />
+                <EditText android:textSize="15.0sp" android:id="@id/chujian_register_by_phone_success_password_edittext" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:hint="6-20个字符" android:singleLine="true" android:maxLength="20" />
+            </LinearLayout>
+            <ImageButton android:layout_gravity="center_horizontal" android:id="@id/chujian_register_by_phone_success_ok_button" android:layout_width="300.0dip" android:layout_height="wrap_content" android:src="@drawable/chujian_sdk_fragment_register_by_phone_success_ok_btn_selector" />
+        </LinearLayout>
+    </FrameLayout>
+</org.darcy.sanguo.sdk.view.MyFrameLayout>
